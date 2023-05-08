@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/icon.png">
+    <title>GUESS MASTER</title>
+</head>
+<body>
+    <h1>
+        NUMBER GUESSING GAME
+    </h1>
+    <h5>
+        enter a number between 1 and 100 :
+    </h5>
+    
+    <div class="container">
+        
+     <form>
+
+        <h2 id="congrats">
+            CONGRAGULATIONS!!!
+        </h2>
+        <div class="screen">
+        <input type="number" autocomplete="off" placeholder="enter a number eg:29" id="screen" value="">
+         </div>
+
+        <div class="button">
+            <input type="button" class="button game" value="guess" id="guess" onclick="getValue();">
+            <input type="button" class="button game" value="play again" id="retry" onclick="randomValue();">
+        </div>
+        <div class="result">
+            <span id="result">
+                too high
+            </span>
+            <span id="rnumber">
+                
+            </span>
+        </div>
+     </form>
+        <script src="script.js"></script>
+</body>
+</html> 

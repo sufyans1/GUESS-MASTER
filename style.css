@@ -1,0 +1,130 @@
+body
+{
+
+    margin: 5%;
+    background-color: #77a8a8;
+
+}
+h1 , h5
+{
+
+    text-align: center;
+    color: #0d2669;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+h2
+{
+    
+    visibility: hidden;
+    text-align: center;
+    font-family: inherit;
+    color: rgb(3, 83, 3);
+}
+.container
+{
+
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 20vh;
+
+}
+.screen
+{
+    
+    height: 10vh;
+    width: 40vw;
+    margin-bottom: 5vh;
+    border: transparent;
+
+}
+#screen
+{
+
+    text-align: center;
+    font-size: 1rem;
+    background-color: #e4b83d;
+    border: 3px solid white;
+    border-radius: 2vh;
+    margin-top: .5vh;
+    margin-left: 1.5vw;
+    height: 8vh;
+    width: 35vw;
+    
+}
+.button
+{
+
+    
+    height: 10vh;
+    width: 40vw;
+    position: absolute;
+
+}
+#retry , #guess
+{
+
+    box-shadow: 1px 3px 4px 5px #0d2669;
+    border: 3px solid white;
+    width: 20vw;
+    margin-left: 10vw;
+    border-radius: 1.5vh;
+    color: #ffffff;
+    background-color: #5783db;
+    font-size: 1rem;
+    margin-top: 10vh;
+    
+}
+.result
+{
+    
+    height: 5vh;
+    text-align: center;
+    font-size:large;
+    color: rgb(134, 16, 16);
+    
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button
+{
+    -webkit-appearance: none;
+    margin: 0;
+}
+#screen , #retry , #guess:hover
+{
+
+    box-shadow: 1px 3px 4px 5px #0d2669;
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #e4b83d;
+    
+}
+
+@media only screen and (width < 600px) 
+{
+    
+    #screen
+    {
+        font-size: small;
+        margin-top: opx;
+        margin-left: 17vw;
+    }
+    #retry , #guess
+    {
+        height: 5vh;
+        font-size: small;
+        margin-top: 0px;
+        margin-left: 26vw;
+    }
+    
+}
+
+    
+
+
+
+
+
+
