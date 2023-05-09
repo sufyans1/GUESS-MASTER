@@ -31,7 +31,7 @@ function getValue()
 
         if(input == null || input >100 || input <0)
         {
-            result.innerHTML = "please enter a valid number";
+            result.innerHTML = "please enter a valid number" + "<br>";
         }
         else
         {
