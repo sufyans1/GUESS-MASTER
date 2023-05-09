@@ -114,7 +114,7 @@ input[type=number]::-webkit-outer-spin-button
     #retry , #guess
     {
         height: 5vh;
-        font-size: small;
+        font-size: smaller;
         margin-top: 10vh;
         margin-left: 26vw;
     }
